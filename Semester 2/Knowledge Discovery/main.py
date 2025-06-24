@@ -68,14 +68,14 @@ def download_and_extract_movielens():
     """
     Download and extract the MovieLens 100k dataset.
     """
-    if os.path.exists(os.path.join("data", "ml-100k")):
+    if os.path.exists(os.path.join("data_kd", "ml-100k")):
         print("Dataset already exists. Skipping download.")
         return True
 
     url = "https://files.grouplens.org/datasets/movielens/ml-100k.zip"
     print(f"Downloading MovieLens 100k dataset from {url}...")
 
-    os.makedirs("data", exist_ok=True)
+    os.makedirs("data_kd", exist_ok=True)
 
     try:
         response = requests.get(url, timeout=30)
@@ -96,7 +96,7 @@ def process_movielens_data():
     """
     Process the MovieLens 100k dataset and create a combined dataframe.
     """
-    data_dir = os.path.join("data", "ml-100k")
+    data_dir = os.path.join("data_kd", "ml-100k")
 
     if not os.path.exists(data_dir):
         print(f"Data directory {data_dir} not found.")
@@ -135,7 +135,7 @@ def process_movielens_data():
     combined_df = ratings_df.merge(movies_df, on='movie_id').merge(users_df, on='user_id')
     combined_df.drop(columns=['user_id', 'movie_id', 'timestamp'], inplace=True)
 
-    combined_csv_path = os.path.join("data", "movielens.csv")
+    combined_csv_path = os.path.join("data_kd", "movielens.csv")
     combined_df.to_csv(combined_csv_path, index=False)
 
     print(f"Combined dataset created with {len(combined_df)} records.")
@@ -149,7 +149,7 @@ def preprocess_and_visualize(df):
     if df is None:
         return
 
-    plots_dir = os.path.join("data", "plots")
+    plots_dir = os.path.join("data_kd", "plots")
     os.makedirs(plots_dir, exist_ok=True)
     print(f"Plots will be saved to {plots_dir}")
 
