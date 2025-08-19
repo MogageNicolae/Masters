@@ -274,8 +274,30 @@ if __name__ == '__main__':
     #     print("Failed to download and extract the dataset.")
     # 
     # selected_columns_men = ["image_id", "Bald", "Black_Hair", "Blond_Hair", "Brown_Hair", "Gray_Hair", "Straight_Hair", "Wavy_Hair",
-    #                     "Smiling", "Goatee", "Mustache", "No_Beard" "Attractive", "Young"]
+    #                     "Smiling", "Goatee", "Mustache", "No_Beard", "Attractive", "Young"]
     # selected_columns_women = ["image_id", "Bald", "Black_Hair", "Blond_Hair", "Brown_Hair", "Gray_Hair", "Straight_Hair", "Wavy_Hair",
     #                     "Smiling", "Bangs", "Heavy_Makeup", "Wearing_Earrings", "Wearing_Lipstick", "Attractive", "Young"]
     # process_celeba_csv(selected_columns=selected_columns_women)
-    pass
+
+    # create s script to process salaries_cyber.csv, to retain only experience and salary columns, and save it to a new csv file
+    salaries_csv_path = "salaries_cyber.csv"
+    if os.path.exists(salaries_csv_path):
+        df = pd.read_csv(salaries_csv_path)
+        df = df[['experience_level', 'salary_in_usd']]
+        df['experience_level'] = df['experience_level'].replace({
+            'EN': 'Entry',
+            'MI': 'Mid',
+            'SE': 'Senior',
+            'EX': 'Executive'
+        })
+        df['salary_category'] = pd.cut(df['salary_in_usd'], bins=[0, 100000, 200000, 300000, float('inf')],
+                                       labels=['Low', 'Medium', 'High', 'Very High'])
+        df = df[['experience_level', 'salary_category']]
+        # add a new column 'id' with unique ids starting from 1
+        df.reset_index(drop=True, inplace=True)
+        df['id'] = df.index + 1
+        df = df[['id', 'experience_level', 'salary_category']]
+        df.to_csv('new_salaries_cyber.csv', index=False)
+        print(f"Processed {salaries_csv_path}: kept only 'experience' and 'salary' columns.")
+    else:
+        print(f"{salaries_csv_path} does not exist.")

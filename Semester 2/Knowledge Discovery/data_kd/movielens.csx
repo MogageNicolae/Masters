@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <conceptualSchema version="TJ1.0">
     <databaseConnection>
-        <embed url="/D:/Projects/Masters/Semester%202/Knowledge%20Discovery/data/movielens.sql" />
+        <embed url="/Users/nicolae.mogage/Uni/Masters/Semester%202/Knowledge%20Discovery/data_kd/movielens.sql" />
         <table name="MOVIELENS" />
         <key name="RATING" />
     </databaseConnection>
