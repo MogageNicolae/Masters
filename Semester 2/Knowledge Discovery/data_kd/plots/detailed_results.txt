@@ -1,0 +1,205 @@
+
+--- Wine Quality Dataset: First 5 Rows ---
+   fixed acidity  volatile acidity  citric acid  residual sugar  chlorides  free sulfur dioxide  ...  density    pH  sulphates  alcohol  quality  cluster
+0            7.4              0.70         0.00             1.9      0.076                 11.0  ...   0.9978  3.51       0.56      9.4        5        0
+1            7.8              0.88         0.00             2.6      0.098                 25.0  ...   0.9968  3.20       0.68      9.8        5        0
+2            7.8              0.76         0.04             2.3      0.092                 15.0  ...   0.9970  3.26       0.65      9.8        5        0
+3           11.2              0.28         0.56             1.9      0.075                 17.0  ...   0.9980  3.16       0.58      9.8        6        1
+4            7.4              0.70         0.00             1.9      0.076                 11.0  ...   0.9978  3.51       0.56      9.4        5        0
+
+[5 rows x 13 columns]
+
+--- Data Description ---
+       fixed acidity  volatile acidity  citric acid  residual sugar    chlorides  ...           pH    sulphates      alcohol      quality      cluster
+count    1599.000000       1599.000000  1599.000000     1599.000000  1599.000000  ...  1599.000000  1599.000000  1599.000000  1599.000000  1599.000000
+mean        8.319637          0.527821     0.270976        2.538806     0.087467  ...     3.311113     0.658149    10.422983     5.636023     1.879925
+std         1.741096          0.179060     0.194801        1.409928     0.047065  ...     0.154386     0.169507     1.065668     0.807569     1.813754
+min         4.600000          0.120000     0.000000        0.900000     0.012000  ...     2.740000     0.330000     8.400000     3.000000     0.000000
+25%         7.100000          0.390000     0.090000        1.900000     0.070000  ...     3.210000     0.550000     9.500000     5.000000     0.000000
+50%         7.900000          0.520000     0.260000        2.200000     0.079000  ...     3.310000     0.620000    10.200000     6.000000     1.000000
+75%         9.200000          0.640000     0.420000        2.600000     0.090000  ...     3.400000     0.730000    11.100000     6.000000     4.000000
+max        15.900000          1.580000     1.000000       15.500000     0.611000  ...     4.010000     2.000000    14.900000     8.000000     5.000000
+
+[8 rows x 13 columns]
+
+--- Missing Values ---
+fixed acidity           0
+volatile acidity        0
+citric acid             0
+residual sugar          0
+chlorides               0
+free sulfur dioxide     0
+total sulfur dioxide    0
+density                 0
+pH                      0
+sulphates               0
+alcohol                 0
+quality                 0
+cluster                 0
+dtype: int64
+
+--- Quality Value Counts ---
+quality
+5    681
+6    638
+7    199
+4     53
+8     18
+3     10
+Name: count, dtype: int64
+Correlation heatmap saved to data_kd\plots\correlation_heatmap.png
+
+
+--- Outlier Analysis ---
+IQR Outlier counts per feature:
+  fixed acidity: 49 outliers
+  volatile acidity: 19 outliers
+  citric acid: 1 outliers
+  residual sugar: 155 outliers
+  chlorides: 112 outliers
+  free sulfur dioxide: 30 outliers
+  total sulfur dioxide: 55 outliers
+  density: 45 outliers
+  pH: 35 outliers
+  sulphates: 59 outliers
+  alcohol: 13 outliers
+Boxplots for each feature saved to data_kd\plots
+Isolation Forest detected 80 outliers (out of 1599)
+Isolation Forest outlier PCA plot saved to data_kd\plots\isolation_forest_outliers_pca.png
+
+Outlier analysis completed.
+
+
+--- KMeans Cluster Centers (scaled, k=6) ---
+[[-4.15126912e-01  6.20884650e-01 -7.56321902e-01 -2.25427774e-01
+  -4.44582020e-02 -4.57743585e-01 -3.74704199e-01  5.51649074e-03
+   2.98760195e-01 -3.94489862e-01 -5.32861535e-01]
+ [ 1.57838548e+00 -6.14113139e-01  1.20879346e+00  2.49832198e-01
+   3.21473700e-02 -5.00179759e-01 -4.54572357e-01  1.08295109e+00
+  -9.47046669e-01  3.34159637e-01  1.06966565e-02]
+ [-1.07715198e-01  5.76584722e-02  7.17886775e-02  4.24315801e-01
+   6.07156777e-03  1.12638418e+00  1.35265351e+00  3.28476784e-01
+  -1.15391802e-01 -1.77430176e-01 -5.45088894e-01]
+ [ 9.54162998e-02  2.19980305e-03  1.18155266e+00 -3.89872163e-01
+   5.78475973e+00 -4.95156003e-02  5.10329601e-01  1.80071833e-01
+  -1.73579154e+00  3.66341219e+00 -8.69731260e-01]
+ [-1.11390437e+00  4.29279941e-01 -9.44749864e-01 -2.43315869e-01
+  -4.17811010e-01  3.00835610e-01 -1.52247131e-01 -1.33673046e+00
+   1.22687156e+00 -1.36761329e-01  1.19172948e+00]
+ [ 4.05952212e-02 -1.03782265e+00  7.06746604e-01 -1.75414390e-01
+  -2.94195486e-01 -2.49913650e-01 -5.06414104e-01 -7.25968847e-01
+  -1.31330522e-01  3.84922734e-01  1.05690958e+00]]
+
+--- Cluster Distribution (k=6) ---
+cluster
+0    515
+2    339
+1    287
+5    237
+4    193
+3     28
+Name: count, dtype: int64
+
+--- Mean Quality by Cluster (k=6) ---
+cluster
+0    5.316505
+1    5.864111
+2    5.321534
+3    5.357143
+4    5.886010
+5    6.333333
+Name: quality, dtype: float64
+PCA cluster plot saved to data_kd\plots\kmeans_pca_clusters.png
+
+
+--- Decision Tree Classification Report ---
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00        10
+           5       0.57      0.81      0.67       130
+           6       0.49      0.42      0.45       132
+           7       0.45      0.21      0.29        42
+           8       0.00      0.00      0.00         5
+
+    accuracy                           0.53       320
+   macro avg       0.25      0.24      0.24       320
+weighted avg       0.49      0.53      0.50       320
+
+
+--- Decision Tree Rules ---
+|--- alcohol <= 10.53
+|   |--- total sulfur dioxide <= 98.50
+|   |   |--- sulphates <= 0.57
+|   |   |   |--- alcohol <= 9.75
+|   |   |   |   |--- class: 5
+|   |   |   |--- alcohol >  9.75
+|   |   |   |   |--- class: 5
+|   |   |--- sulphates >  0.57
+|   |   |   |--- fixed acidity <= 9.95
+|   |   |   |   |--- class: 5
+|   |   |   |--- fixed acidity >  9.95
+|   |   |   |   |--- class: 6
+|   |--- total sulfur dioxide >  98.50
+|   |   |--- sulphates <= 1.17
+|   |   |   |--- residual sugar <= 1.60
+|   |   |   |   |--- class: 4
+|   |   |   |--- residual sugar >  1.60
+|   |   |   |   |--- class: 5
+|   |   |--- sulphates >  1.17
+|   |   |   |--- alcohol <= 9.85
+|   |   |   |   |--- class: 5
+|   |   |   |--- alcohol >  9.85
+|   |   |   |   |--- class: 6
+|--- alcohol >  10.53
+|   |--- alcohol <= 11.55
+|   |   |--- sulphates <= 0.58
+|   |   |   |--- free sulfur dioxide <= 16.50
+|   |   |   |   |--- class: 5
+|   |   |   |--- free sulfur dioxide >  16.50
+|   |   |   |   |--- class: 6
+|   |   |--- sulphates >  0.58
+|   |   |   |--- volatile acidity <= 0.38
+|   |   |   |   |--- class: 6
+|   |   |   |--- volatile acidity >  0.38
+|   |   |   |   |--- class: 6
+|   |--- alcohol >  11.55
+|   |   |--- sulphates <= 0.69
+|   |   |   |--- total sulfur dioxide <= 15.50
+|   |   |   |   |--- class: 7
+|   |   |   |--- total sulfur dioxide >  15.50
+|   |   |   |   |--- class: 6
+|   |   |--- sulphates >  0.69
+|   |   |   |--- free sulfur dioxide <= 18.50
+|   |   |   |   |--- class: 7
+|   |   |   |--- free sulfur dioxide >  18.50
+|   |   |   |   |--- class: 6
+
+
+--- Feature Importances ---
+alcohol                 0.504259
+sulphates               0.200538
+total sulfur dioxide    0.146765
+free sulfur dioxide     0.053913
+fixed acidity           0.050095
+volatile acidity        0.034677
+residual sugar          0.009753
+citric acid             0.000000
+chlorides               0.000000
+pH                      0.000000
+density                 0.000000
+dtype: float64
+
+--- Knowledge Extraction Summary ---
+1. Clustering revealed natural groupings in the data, with mean quality per cluster as shown above.
+2. Decision tree analysis identified the most important features for predicting wine quality:
+alcohol                 0.504259
+sulphates               0.200538
+total sulfur dioxide    0.146765
+free sulfur dioxide     0.053913
+fixed acidity           0.050095
+dtype: float64
+3. Association rules (if shown above) reveal combinations of feature bins that are strongly associated with certain quality levels.
+
+[End of Knowledge Discovery on winequality-red.csv]
+
