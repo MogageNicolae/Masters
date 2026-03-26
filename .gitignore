@@ -1,3 +1,55 @@
-.idea
-data
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# macOS
 .DS_Store
+._*
+
+# Data
+data
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Java
+*.class
+target/
+bin/
+
+# Saved models & artifacts
+*.pkl
+*.joblib
+*.model
+*.bin
+*.pt
+*.pth
+*.h5
+*.onnx
+*.safetensors
+models/
+
+# Build outputs
+build/
+dist/
+*.jar
+
+# Generated output
+results_output*.txt
+
+# Large data/output files
+**/planner/output/
+*.safetensors
+tokenizer.json
+**/cacm/cacm.all

@@ -1,0 +1,524 @@
+================================================================================
+RANKED RETRIEVAL SYSTEM - EVALUATION RESULTS
+================================================================================
+
+
+Query ID: 1
+Query: What articles exist which deal with TSS (Time Sharing System), an operating system for IBM computers?
+Relevant docs: 5
+Retrieved docs: 2091
+Top 10: [195, 1410, 1938, 31, 2371, 1333, 2572, 61, 118, 163]
+P@3:  0.3333
+P@10: 0.1000
+R-precision: 0.2000
+--------------------------------------------------------------------------------
+
+Query ID: 2
+Query: I am interested in articles written either by Prieve or Udo Pooch
+Relevant docs: 3
+Retrieved docs: 1048
+Top 10: [356, 740, 136, 597, 1345, 1321, 1046, 204, 236, 3144]
+P@3:  0.0000
+P@10: 0.0000
+R-precision: 0.0000
+--------------------------------------------------------------------------------
+
+Query ID: 3
+Query: Intermediate languages used in construction of multi-targeted compilers; TCOLL
+Relevant docs: 6
+Retrieved docs: 1128
+Top 10: [1521, 62, 929, 1304, 187, 1149, 1134, 661, 3189, 2858]
+P@3:  0.0000
+P@10: 0.1000
+R-precision: 0.0000
+--------------------------------------------------------------------------------
+
+Query ID: 4
+Query: I'm interested in mechanisms for communicating between disjoint processes, possibly, but not exclusively, in a distributed environment.  I would rather see descriptions of complete mechanisms, with or without implementations, as opposed to theoretical work on the abstract problem.  Remote procedure calls and message-passing are examples of my interests.
+Relevant docs: 12
+Retrieved docs: 2155
+Top 10: [3128, 356, 740, 3188, 2939, 2376, 2342, 3141, 2439, 2684]
+P@3:  0.3333
+P@10: 0.1000
+R-precision: 0.1667
+--------------------------------------------------------------------------------
+
+Query ID: 5
+Query: I'd like papers on design and implementation of editing interfaces, window-managers, command interpreters, etc.  The essential issues are human interface design, with views on improvements to user efficiency, effectiveness and satisfaction.
+Relevant docs: 8
+Retrieved docs: 1843
+Top 10: [844, 2629, 1829, 2716, 38, 529, 756, 3029, 2786, 1491]
+P@3:  0.0000
+P@10: 0.1000
+R-precision: 0.1250
+--------------------------------------------------------------------------------
+
+Query ID: 6
+Query: Interested in articles on robotics, motion planning particularly the geometric and combinatorial aspects.  We are not interested in the dynamics of arm motion.
+Relevant docs: 3
+Retrieved docs: 1536
+Top 10: [356, 740, 438, 859, 2417, 136, 2671, 402, 705, 888]
+P@3:  0.0000
+P@10: 0.0000
+R-precision: 0.0000
+--------------------------------------------------------------------------------
+
+Query ID: 7
+Query: I am interested in distributed algorithms - concurrent programs in which processes communicate and synchronize by using message passing. Areas of particular interest include fault-tolerance and techniques for understanding the correctness of these algorithms.
+Relevant docs: 28
+Retrieved docs: 2777
+Top 10: [2376, 356, 740, 3043, 2912, 3128, 1353, 2556, 136, 3148]
+P@3:  0.3333
+P@10: 0.5000
+R-precision: 0.3214
+--------------------------------------------------------------------------------
+
+Query ID: 8
+Query: Addressing schemes for resources in networks; resource addressing in network operating systems
+Relevant docs: 3
+Retrieved docs: 1728
+Top 10: [757, 820, 517, 2371, 1611, 36, 666, 2614, 2830, 383]
+P@3:  0.0000
+P@10: 0.0000
+R-precision: 0.0000
+--------------------------------------------------------------------------------
+
+Query ID: 9
+Query: Security considerations in local networks, network operating systems, and distributed systems.
+Relevant docs: 9
+Retrieved docs: 945
+Top 10: [757, 517, 820, 2291, 2440, 2458, 3158, 2212, 36, 666]
+P@3:  0.0000
+P@10: 0.1000
+R-precision: 0.1111
+--------------------------------------------------------------------------------
+
+Query ID: 10
+Query: Parallel languages; languages for parallel computation
+Relevant docs: 35
+Retrieved docs: 1826
+Top 10: [1795, 141, 392, 1302, 2952, 2785, 2685, 2664, 1367, 1262]
+P@3:  1.0000
+P@10: 0.7000
+R-precision: 0.5714
+--------------------------------------------------------------------------------
+
+Query ID: 11
+Query: SETL, Very High Level Languages
+Relevant docs: 19
+Retrieved docs: 532
+Top 10: [2699, 1903, 1872, 74, 81, 232, 2906, 795, 2717, 2091]
+P@3:  0.3333
+P@10: 0.2000
+R-precision: 0.3158
+--------------------------------------------------------------------------------
+
+Query ID: 12
+Query: portable operating systems
+Relevant docs: 5
+Retrieved docs: 814
+Top 10: [3127, 2246, 3196, 1930, 379, 1461, 437, 1755, 2796, 17]
+P@3:  0.6667
+P@10: 0.2000
+R-precision: 0.4000
+--------------------------------------------------------------------------------
+
+Query ID: 13
+Query: code optimization for space efficiency
+Relevant docs: 11
+Retrieved docs: 1614
+Top 10: [1795, 2530, 2748, 195, 115, 1311, 2495, 622, 2351, 2397]
+P@3:  0.3333
+P@10: 0.3000
+R-precision: 0.2727
+--------------------------------------------------------------------------------
+
+Query ID: 14
+Query: find all discussions of optimal implementations of sort algorithms for database management applications
+Relevant docs: 44
+Retrieved docs: 2578
+Top 10: [2964, 2397, 2976, 863, 307, 132, 563, 648, 662, 701]
+P@3:  0.3333
+P@10: 0.1000
+R-precision: 0.4091
+--------------------------------------------------------------------------------
+
+Query ID: 15
+Query: Find all discussions of horizontal microcode optimization with special emphasis on optimization of loops and global optimization.
+Relevant docs: 10
+Retrieved docs: 1556
+Top 10: [820, 1947, 1737, 2477, 307, 115, 3125, 2444, 2880, 2574]
+P@3:  0.3333
+P@10: 0.2000
+R-precision: 0.2000
+--------------------------------------------------------------------------------
+
+Query ID: 16
+Query: find all descriptions of file handling in operating systems based on multiple processes and message passing.
+Relevant docs: 17
+Retrieved docs: 1592
+Top 10: [3141, 307, 394, 2376, 2444, 1332, 107, 395, 428, 1076]
+P@3:  0.0000
+P@10: 0.1000
+R-precision: 0.0588
+--------------------------------------------------------------------------------
+
+Query ID: 17
+Query: Optimization of intermediate and machine code
+Relevant docs: 16
+Retrieved docs: 423
+Top 10: [1795, 2079, 195, 1134, 115, 2491, 1223, 1757, 1658, 622]
+P@3:  0.0000
+P@10: 0.3000
+R-precision: 0.3125
+--------------------------------------------------------------------------------
+
+Query ID: 18
+Query: Languages and compilers for parallel processors, especially highly horizontal microcoded machines; code compaction
+Relevant docs: 11
+Retrieved docs: 1711
+Top 10: [1795, 2138, 2156, 2880, 2361, 1613, 763, 494, 799, 3005]
+P@3:  0.0000
+P@10: 0.1000
+R-precision: 0.0909
+--------------------------------------------------------------------------------
+
+Query ID: 19
+Query: Parallel algorithms
+Relevant docs: 11
+Retrieved docs: 1357
+Top 10: [141, 392, 1795, 1302, 2952, 2664, 1367, 1158, 2685, 2896]
+P@3:  0.3333
+P@10: 0.2000
+R-precision: 0.1818
+--------------------------------------------------------------------------------
+
+Query ID: 20
+Query: Graph theoretic algorithms applicable to sparse matrices
+Relevant docs: 3
+Retrieved docs: 1585
+Top 10: [2442, 2506, 2199, 285, 315, 349, 749, 956, 1481, 2172]
+P@3:  0.0000
+P@10: 0.0000
+R-precision: 0.0000
+--------------------------------------------------------------------------------
+
+Query ID: 21
+Query: computational complexity, intractability, class-complete reductions, algorithms and efficiency
+Relevant docs: 11
+Retrieved docs: 2181
+Top 10: [555, 764, 878, 833, 1037, 1118, 3007, 425, 876, 883]
+P@3:  0.0000
+P@10: 0.0000
+R-precision: 0.0909
+--------------------------------------------------------------------------------
+
+Query ID: 22
+Query: I am interested in hidden-line and hidden-surface algorithms for cylinders, toroids, spheres, and cones.  This is a rather specialized topic in computer graphics.
+Relevant docs: 17
+Retrieved docs: 2707
+Top 10: [2384, 2441, 2473, 2564, 2637, 2638, 88, 266, 52, 122]
+P@3:  1.0000
+P@10: 0.6000
+R-precision: 0.4118
+--------------------------------------------------------------------------------
+
+Query ID: 23
+Query: Distributed computing structures and algorithms
+Relevant docs: 4
+Retrieved docs: 2161
+Top 10: [2212, 711, 1081, 1778, 1941, 1583, 2427, 862, 1714, 1944]
+P@3:  0.0000
+P@10: 0.0000
+R-precision: 0.0000
+--------------------------------------------------------------------------------
+
+Query ID: 24
+Query: Applied stochastic processes
+Relevant docs: 13
+Retrieved docs: 467
+Top 10: [268, 1696, 2844, 927, 1540, 1410, 293, 1892, 1194, 2535]
+P@3:  0.6667
+P@10: 0.3000
+R-precision: 0.2308
+--------------------------------------------------------------------------------
+
+Query ID: 25
+Query: Performance evaluation and modelling of computer systems
+Relevant docs: 51
+Retrieved docs: 1341
+Top 10: [2318, 436, 360, 741, 742, 819, 1093, 1128, 444, 517]
+P@3:  0.3333
+P@10: 0.1000
+R-precision: 0.2157
+--------------------------------------------------------------------------------
+
+Query ID: 26
+Query: Concurrency control mechanisms in operating systems
+Relevant docs: 30
+Retrieved docs: 901
+Top 10: [1338, 2256, 1102, 438, 3128, 2618, 2844, 2376, 549, 1198]
+P@3:  0.6667
+P@10: 0.6000
+R-precision: 0.5000
+--------------------------------------------------------------------------------
+
+Query ID: 27
+Query: Memory management aspects of operating systems
+Relevant docs: 29
+Retrieved docs: 883
+Top 10: [155, 2553, 2502, 2577, 86, 2399, 59, 1960, 2481, 3000]
+P@3:  0.0000
+P@10: 0.2000
+R-precision: 0.2414
+--------------------------------------------------------------------------------
+
+Query ID: 28
+Query: Any information on packet radio networks.  Of particular interest are algorithms for packet routing, and for dealing with changes in network topography.  I am not interested in the hardware used in the network.
+Relevant docs: 5
+Retrieved docs: 2821
+Top 10: [383, 3032, 2445, 2562, 356, 740, 2849, 757, 517, 820]
+P@3:  0.3333
+P@10: 0.2000
+R-precision: 0.2000
+--------------------------------------------------------------------------------
+
+Query ID: 29
+Query: Number-theoretic algorithms, especially involving prime number series, sieves, and Chinese Remainder theorem.
+Relevant docs: 19
+Retrieved docs: 1677
+Top 10: [377, 513, 610, 2089, 1537, 1538, 1094, 2927, 1539, 1840]
+P@3:  1.0000
+P@10: 1.0000
+R-precision: 0.7368
+--------------------------------------------------------------------------------
+
+Query ID: 30
+Query: Articles on text formatting systems, including "what you see is what you get" systems.  Examples: t/nroff, scribe, bravo.
+Relevant docs: 4
+Retrieved docs: 1435
+Top 10: [195, 1137, 1256, 84, 953, 688, 1055, 1779, 2729, 2098]
+P@3:  0.0000
+P@10: 0.0000
+R-precision: 0.0000
+--------------------------------------------------------------------------------
+
+Query ID: 31
+Query: I'd like to find articles describing the use of singular value decomposition in digital image processing.  Applications include finding approximations to the original image and restoring images that are subject to noise. An article on the subject is H.C. Andrews and C.L. Patterson "Outer product expansions and their uses in digital image processing", American Mathematical Monthly, vol. 82.
+Relevant docs: 2
+Retrieved docs: 2071
+Top 10: [1839, 1191, 200, 201, 1803, 1899, 1686, 2125, 1712, 1144]
+P@3:  0.0000
+P@10: 0.1000
+R-precision: 0.0000
+--------------------------------------------------------------------------------
+
+Query ID: 32
+Query: I'd like to find articles describing graph algorithms that are based on the eigenvalue decomposition (or singular value decomposition) of the ajacency matrix for the graph.  I'm especially interested in any heuristic algorithms for graph coloring and graph isomorphism using this method.
+Relevant docs: 3
+Retrieved docs: 2849
+Top 10: [1839, 3139, 1804, 366, 2444, 1145, 1899, 1481, 2172, 2461]
+P@3:  0.3333
+P@10: 0.3000
+R-precision: 0.3333
+--------------------------------------------------------------------------------
+
+Query ID: 33
+Query: Articles about the sensitivity of the eigenvalue decomposition of real matrices, in particular, zero-one matrices.  I'm especially interested in the separation of eigenspaces corresponding to distinct eigenvalues. Articles on the subject: C. Davis and W.M. Kahn, "The rotation of eigenvectors by a permutation:, SIAM J. Numerical Analysis, vol. 7, no. 1 (1970); G.W. Stewart, "Error bounds for approximate invariant subspaces of closed linear operators", SIAM J. Numerical Analysis., Vol. 8, no. 4 (1971).
+Relevant docs: 1
+Retrieved docs: 2227
+Top 10: [1662, 1954, 1968, 2043, 2335, 559, 1617, 1285, 1577, 2539]
+P@3:  0.0000
+P@10: 0.0000
+R-precision: 0.0000
+--------------------------------------------------------------------------------
+
+Query ID: 36
+Query: Fast algorithm for context-free language recognition or parsing
+Relevant docs: 20
+Retrieved docs: 2536
+Top 10: [1131, 2476, 2084, 2112, 1737, 1399, 1265, 2982, 204, 680]
+P@3:  0.3333
+P@10: 0.2000
+R-precision: 0.3000
+--------------------------------------------------------------------------------
+
+Query ID: 37
+Query: Articles describing the relationship between data types and concurrency (e.g. what is the type of a process?  when is a synchronization attempt between two processes "type correct"?  in a message-passing system is there any notion of the types of messages?--i.e. any way to check that the sender of the message and the receiver are both treating the bit stream as some particular type)
+Relevant docs: 12
+Retrieved docs: 1826
+Top 10: [2376, 2265, 2912, 195, 3128, 2946, 2229, 2321, 243, 1646]
+P@3:  0.3333
+P@10: 0.1000
+R-precision: 0.0833
+--------------------------------------------------------------------------------
+
+Query ID: 38
+Query: What is the type of a module?	(I don't want the entire literature on Abstract Data Types here, but I'm not sure how to phrase this to avoid it. I'm interested in questions about how one can check that a module "matches" contexts in which it is used.)
+Relevant docs: 16
+Retrieved docs: 1841
+Top 10: [2082, 1737, 1364, 195, 1569, 2729, 463, 1717, 970, 994]
+P@3:  0.0000
+P@10: 0.0000
+R-precision: 0.0625
+--------------------------------------------------------------------------------
+
+Query ID: 39
+Query: What does type compatibility mean in languages that allow programmer defined types?  (You might want to restrict this to "extensible" languages that allow definition of abstract data types or programmer-supplied definitions of operators like *, +.)
+Relevant docs: 12
+Retrieved docs: 1544
+Top 10: [602, 1142, 2940, 195, 2960, 2082, 2651, 2425, 2909, 230]
+P@3:  0.0000
+P@10: 0.1000
+R-precision: 0.1667
+--------------------------------------------------------------------------------
+
+Query ID: 40
+Query: List all articles dealing with data types in the following languages: Pascal, CLU, Alphard, Russell, Ada, ALGOL 68, EL1.  List any other languages that are referenced frequently in papers on the above languages (e.g. catch any languages with interesting type structures that I might have missed).
+Relevant docs: 10
+Retrieved docs: 2004
+Top 10: [2940, 2651, 2939, 1485, 343, 1588, 627, 793, 356, 740]
+P@3:  1.0000
+P@10: 0.3000
+R-precision: 0.3000
+--------------------------------------------------------------------------------
+
+Query ID: 42
+Query: Computer performance evaluation techniques using pattern recognition and clustering.
+Relevant docs: 21
+Retrieved docs: 1510
+Top 10: [204, 633, 2641, 2789, 462, 529, 2107, 1335, 2942, 2494]
+P@3:  0.0000
+P@10: 0.0000
+R-precision: 0.0000
+--------------------------------------------------------------------------------
+
+Query ID: 43
+Query: Analysis and perception of shape by humans and computers.  Shape descriptions, shape recognition by computer.  Two-dimensional shapes. Measures of circularity.  Shape matching.
+Relevant docs: 41
+Retrieved docs: 1503
+Top 10: [2225, 2751, 633, 204, 2271, 2575, 2910, 2754, 462, 2977]
+P@3:  0.3333
+P@10: 0.4000
+R-precision: 0.2683
+--------------------------------------------------------------------------------
+
+Query ID: 44
+Query: Texture analysis by computer.	Digitized texture analysis.  Texture synthesis. Perception of texture.
+Relevant docs: 17
+Retrieved docs: 1373
+Top 10: [2523, 2829, 931, 2325, 2751, 1106, 1002, 1686, 135, 148]
+P@3:  0.6667
+P@10: 0.3000
+R-precision: 0.1765
+--------------------------------------------------------------------------------
+
+Query ID: 45
+Query: The use of operations research models to optimize information system performance.  This includes fine tuning decisions such as secondary index selection, file reorganization, and distributed databases.
+Relevant docs: 26
+Retrieved docs: 1683
+Top 10: [2816, 2964, 2976, 2493, 2928, 1976, 1660, 1796, 1952, 2860]
+P@3:  0.6667
+P@10: 0.3000
+R-precision: 0.2308
+--------------------------------------------------------------------------------
+
+Query ID: 48
+Query: The use of computer science principles (e.g. data structures, numerical methods) in generating optimization (e.g. linear programming) algorithms.  This includes issues of the Khachian (Russian, ellipsoidal) algorithm and complexity of such algorithms.
+Relevant docs: 12
+Retrieved docs: 2786
+Top 10: [47, 1005, 2464, 2600, 2014, 1203, 1513, 1841, 2431, 190]
+P@3:  0.0000
+P@10: 0.0000
+R-precision: 0.0000
+--------------------------------------------------------------------------------
+
+Query ID: 49
+Query: The role of information retrieval in knowledge based systems (i.e., expert systems).
+Relevant docs: 8
+Retrieved docs: 1037
+Top 10: [634, 2795, 651, 657, 2070, 57, 2959, 798, 239, 275]
+P@3:  0.3333
+P@10: 0.1000
+R-precision: 0.1250
+--------------------------------------------------------------------------------
+
+Query ID: 57
+Query: Abstracts of articles: J. Backus, "Can programming be liberated from the Von Neumann style? A functional style and its algebra of programs", CACM 21 (1978), 613-641. R.A.De Millo, R.J. Lipton, A.J. Perlis, letter to ACM Forum, CACM 22 (1979), 629-630
+Relevant docs: 1
+Retrieved docs: 1661
+Top 10: [3077, 1220, 1221, 1481, 2172, 1019, 2384, 2678, 57, 2090]
+P@3:  0.3333
+P@10: 0.1000
+R-precision: 1.0000
+--------------------------------------------------------------------------------
+
+Query ID: 58
+Query: Algorithms or statistical packages for ANOVA, regression using least squares or generalized linear models.  System design, capabilities, statistical formula are of interest.  Student's t test, Wilcoxon and sign tests, multivariate and univariate components can be included.
+Relevant docs: 30
+Retrieved docs: 2774
+Top 10: [2098, 432, 1944, 1986, 1987, 2418, 1779, 529, 840, 2025]
+P@3:  1.0000
+P@10: 0.3000
+R-precision: 0.2333
+--------------------------------------------------------------------------------
+
+Query ID: 59
+Query: Dictionary construction and accessing methods for fast retrieval of words or lexical items or morphologically related information. Hashing or indexing methods are usually applied to English spelling or natural language problems.
+Relevant docs: 43
+Retrieved docs: 1945
+Top 10: [1112, 653, 137, 1235, 1456, 2781, 1700, 2631, 3126, 2736]
+P@3:  0.3333
+P@10: 0.6000
+R-precision: 0.3721
+--------------------------------------------------------------------------------
+
+Query ID: 60
+Query: Hardware and software relating to database management systems. Database packages, back end computers, special associative hardware with microcomputers attached to disk heads or things like RAP, relational or network (CODASYL) or hierarchical models, systems like SYSTEM R, IMS, ADABAS, TOTAL, etc.
+Relevant docs: 27
+Retrieved docs: 1741
+Top 10: [1532, 2593, 2442, 2506, 2976, 2964, 2738, 3025, 3142, 2516]
+P@3:  0.3333
+P@10: 0.4000
+R-precision: 0.1852
+--------------------------------------------------------------------------------
+
+Query ID: 61
+Query: Information retrieval articles by Gerard Salton or others about clustering, bibliographic coupling, use of citations or co-citations, the vector space model, Boolean search methods using inverted files, feedback, etc.
+Relevant docs: 31
+Retrieved docs: 1652
+Top 10: [1287, 257, 359, 938, 1830, 239, 911, 2641, 2789, 1272]
+P@3:  0.0000
+P@10: 0.3000
+R-precision: 0.2903
+--------------------------------------------------------------------------------
+
+Query ID: 62
+Query: Results relating parallel complexity theory (both for PRAM's and uniform circuits).
+Relevant docs: 8
+Retrieved docs: 1821
+Top 10: [2430, 2790, 1648, 2057, 2333, 2975, 1136, 1961, 1368, 1424]
+P@3:  0.0000
+P@10: 0.0000
+R-precision: 0.0000
+--------------------------------------------------------------------------------
+
+Query ID: 63
+Query: Algorithms for parallel computation, and especially comparisons between parallel and sequential algorithms.
+Relevant docs: 12
+Retrieved docs: 2645
+Top 10: [2781, 1795, 141, 3061, 2896, 392, 102, 3073, 1302, 494]
+P@3:  0.3333
+P@10: 0.1000
+R-precision: 0.0833
+--------------------------------------------------------------------------------
+
+Query ID: 64
+Query: List all articles on EL1 and ECL (EL1 may be given as EL/1; I don't remember how they did it.
+Relevant docs: 1
+Retrieved docs: 1667
+Top 10: [2651, 1717, 2729, 688, 1055, 1779, 2098, 1944, 1986, 1987]
+P@3:  0.3333
+P@10: 0.1000
+R-precision: 1.0000
+--------------------------------------------------------------------------------
